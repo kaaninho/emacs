@@ -1,5 +1,8 @@
 (defun install-packages
     ()
+  (when (not (package-installed-p 'dash))
+    (package-refresh-contents)
+    (package-install 'dash))
   (load "dash.el")
   (let* ((all-packages
 	  '(auctex-latexmk

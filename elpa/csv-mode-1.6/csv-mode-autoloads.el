@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "csv-mode" "csv-mode.el" (22840 420 595805
-;;;;;;  686000))
+;;;### (autoloads nil "csv-mode" "csv-mode.el" (22982 5700 363642
+;;;;;;  239000))
 ;;; Generated autoloads from csv-mode.el
 
 (autoload 'csv-mode "csv-mode" "\

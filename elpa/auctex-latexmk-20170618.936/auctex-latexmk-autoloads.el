@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "auctex-latexmk" "auctex-latexmk.el" (22912
-;;;;;;  31791 380155 87000))
+;;;### (autoloads nil "auctex-latexmk" "auctex-latexmk.el" (22982
+;;;;;;  5686 121704 693000))
 ;;; Generated autoloads from auctex-latexmk.el
 
 (autoload 'auctex-latexmk-setup "auctex-latexmk" "\
