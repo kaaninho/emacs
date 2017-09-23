@@ -16,7 +16,7 @@
 (package-initialize)
 
 
-(load "~/.emacs.d/install-packages.el")
+(load "~/.emacs.d/elisp-files/install-packages.el")
 
 ;; Auto-Complete company
 (global-company-mode)
@@ -136,7 +136,7 @@
   (run-clojure "lein trampoline run -m clojure.main repl.clj"))
 
 ;; Für Clojure Test Marcus Datei
-(load "~/active-group/marcus-clojure-test-key.el")
+(load "~/.emacs.d/elisp-files/marcus-clojure-test-key.el")
 
 ;; Timeclock
 (global-set-key (kbd "C-x t i") 'timeclock-in)
@@ -144,14 +144,14 @@
 (global-set-key (kbd "C-x t c") 'timeclock-change)
 
 ;; Für mehr Timeclock-Funktionalität
-(load "~/active-group/kaan-timeclock.el")
+(load "~/.emacs.d/elisp-files/kaan-timeclock.el")
 (global-set-key (kbd "C-x t s") 'timeclock-sum-all-hours)
 (global-set-key (kbd "C-x t t") 'timeclock-hours-worked-today)
 (global-set-key (kbd "C-x t u") 'timeclock-overtime)
 (global-set-key (kbd "C-x t f") 'timeclock-open-timelog-file)
 
 ;; Um an Timeclock einen Kommentar zu hängen
-(load "~/active-group/mikes-timeclock.el")
+(load "~/.emacs.d/elisp-files/mikes-timeclock.el")
 (global-set-key (kbd "C-x  t d") 'timeclock-provide-description)
 
 
