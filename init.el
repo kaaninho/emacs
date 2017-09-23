@@ -17,6 +17,7 @@
 
 
 (load "~/.emacs.d/elisp-files/install-packages.el")
+(load "~/.emacs.d/elisp-files/backup.el")
 
 ;; Auto-Complete company
 (global-company-mode)
